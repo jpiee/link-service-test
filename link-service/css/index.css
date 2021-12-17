@@ -1,0 +1,148 @@
+.footer-nav{
+    position: fixed;
+    bottom: 0;
+    font-size: 32px;
+    background: whitesmoke;
+    border-top: 1px solid gray;
+    padding: 31px 0;
+    color: gray;
+
+    /* padding-bottom: 33px; */
+}
+.footer-nav i{
+    font-size: 48px;
+}
+
+.footer-nav>div.active{
+    color: pink;
+}
+
+.infoCol{
+    background-image: url(https://images.everydayhealth.com/homepage/health-topics-2.jpg?sfvrsn=757370ae_2);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0px 30px;
+    padding-top: 90px;
+    height: 500px;
+}
+
+.fa-bluetooth-b{
+    position: absolute;
+    left: 24px;
+    top: 19px;
+    color: blue;
+    font-size: 51px;
+}
+
+.fa-shield-check{
+    position: absolute;
+    right: 25px;
+    top: 19px;
+    color: lightslategray;
+    font-size: 51px;
+
+}
+
+#notification{
+    padding: 18px;
+    padding-left: 75px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 34px;
+
+}
+.rowTitle{
+    padding: 15px 32px;
+    font-weight: 700;
+}
+
+.statusRow{
+    color: black;
+    font-size: 40px;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid wheat;
+}
+
+.rounded{
+    display: inline-block;
+    border-radius: 60px !important;
+    box-shadow: 1px 1px 4px #888;
+    padding: 0.5em 0.6em;
+    color: gray;
+    background: white;
+}
+.statusContainer{
+    padding-top: 35px;
+}
+.statusContainer>div>div{
+    background: whitesmoke;
+    padding: 35px 0;
+    padding-top: 15px;
+}
+
+.statusTitle{
+    padding-bottom: 35px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.nav-pill-main-div {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: inset -1px -7px 28px 3px rgba(1, 1, 1, 0.11);
+    height: 100%;
+}
+ul.tabs{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+	 ul.tabs li{
+		background: none;
+		color: #222;
+		display: inline-block;
+		/* padding: 10px 15px; */
+		cursor: pointer;
+		transition: 0.3s ease all;
+     width: 33%;
+     text-align: center;
+     background: aliceblue;
+     padding: 15px;
+	}
+	ul.tabs li.current{
+		color: #222;
+		transition: 0.3s ease all;
+        background: whitesmoke;
+	}
+	ul.tabs li.current span{
+		color: #1AA8E2;
+		transition: 0.3s ease all;
+	}
+	.tab-content{
+		display: none;
+		padding: 30px;
+		transition: 0.3s ease all;
+	}
+	.tab-content.current{
+		display: inherit;
+		transition: 0.3s ease all;
+	}
+
+
+
+.checkout-btn{
+    border: 3px solid deepskyblue;
+    color: deepskyblue;
+    padding: 6px 89px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.checkpass{
+    color:deepskyblue ;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 15px;
+}
